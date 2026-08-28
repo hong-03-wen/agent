@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     """系统核心配置类"""
-    # 智谱AI API配置
+    # API配置
     DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
     DEEPSEEK_API_URL = os.getenv("DEEPSEEK_API_URL", "https://api.deepseek.com")
     DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
